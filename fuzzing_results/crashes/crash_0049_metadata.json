@@ -1,0 +1,34 @@
+{
+  "id": "c8e37e9c-c1a4-45c5-b4a3-25abb73b34c2",
+  "timestamp": 1757768763,
+  "protocol": "DNS",
+  "input_data": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    97,
+    53,
+    52,
+    1,
+    0,
+    1
+  ],
+  "input_hash": "537b327d6883d1f8",
+  "error_message": "Send error: Operation not permitted (os error 1)",
+  "execution_time": {
+    "secs": 0,
+    "nanos": 0
+  },
+  "crash_type": "Unknown",
+  "severity": "Medium"
+}

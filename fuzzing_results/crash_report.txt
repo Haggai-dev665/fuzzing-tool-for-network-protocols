@@ -1,0 +1,22 @@
+NETWORK PROTOCOL FUZZING - CRASH REPORT
+==========================================
+
+Total Crashes Found: 50
+Unique Crashes: 50
+
+SEVERITY BREAKDOWN:
+-------------------
+Medium: 50
+
+CRASH TYPE BREAKDOWN:
+---------------------
+Unknown: 50
+
+PROTOCOL STATISTICS:
+====================
+DNS:
+  Total Crashes: 50
+  Unique Crashes: 50
+  Crash Types:
+    Unknown: 50
+

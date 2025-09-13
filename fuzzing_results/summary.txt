@@ -1,0 +1,8 @@
+Network Protocol Fuzzer Results
+================================
+Protocol: DNS
+Target: 8.8.8.8:53
+Total Executions: 50
+Crashes Found: 50
+Workers: 2
+Coverage Enabled: false
