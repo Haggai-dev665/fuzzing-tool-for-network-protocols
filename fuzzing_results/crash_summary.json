@@ -1,0 +1,17 @@
+{
+  "crash_type_breakdown": {
+    "Unknown": 50
+  },
+  "high_severity_crashes": 0,
+  "protocol_breakdown": {
+    "DNS": 50
+  },
+  "severity_breakdown": {
+    "Medium": 50
+  },
+  "summary": {
+    "protocols_tested": 1,
+    "total_crashes": 50,
+    "unique_crashes": 50
+  }
+}

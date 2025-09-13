@@ -1,0 +1,51 @@
+# Network Protocol Fuzzer Configuration
+# Save this as fuzzer.toml and use with: protocol-fuzzer --config fuzzer.toml
+
+[target]
+# Target configuration
+host = "127.0.0.1"
+port = 53
+protocol = "dns"  # Options: "dns", "mqtt"
+timeout_ms = 5000
+
+[fuzzing]
+# Fuzzing parameters
+iterations = 100000
+workers = 8
+mutation_rate = 0.15
+
+# Seed corpus directory (optional)
+# seed_corpus = "./seed_corpus"
+
+[coverage]
+# Coverage tracking
+enabled = true
+output_dir = "./coverage_results"
+collection_interval = 1000
+
+[output]
+# Output configuration
+results_dir = "./fuzzing_results"
+save_interesting = true
+save_crashes = true
+verbose = true
+
+# Example configurations for different scenarios:
+
+# High-intensity fuzzing
+# [fuzzing]
+# iterations = 1000000
+# workers = 16
+# mutation_rate = 0.25
+
+# IoT device testing (gentler approach)
+# [fuzzing]
+# iterations = 50000
+# workers = 2
+# mutation_rate = 0.05
+
+# Quick validation run
+# [fuzzing]
+# iterations = 1000
+# workers = 1
+# mutation_rate = 0.1
